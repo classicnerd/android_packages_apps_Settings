@@ -96,7 +96,7 @@ public class DateTimeSettings extends SettingsPreferenceFragment
         // TODO: Remove the wifiOnly test when auto-timezone is implemented based on wifi-location.
         if (Utils.isWifiOnly(getActivity()) || isFirstRun) {
             getPreferenceScreen().removePreference(mAutoTimeZonePref);
-            autoTimeZoneEnabled = false;
+            autoTimeZoneEnabled = true;
         }
         mAutoTimeZonePref.setChecked(autoTimeZoneEnabled);
 

@@ -145,7 +145,7 @@ public class DeviceAdminSettings extends ListFragment {
         }
 
         public boolean areAllItemsEnabled() {
-            return false;
+            return true;
         }
 
         public boolean isEnabled(int position) {
