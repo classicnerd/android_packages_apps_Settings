@@ -582,6 +582,16 @@
                 android:resource="@id/about_settings" />
         </activity>
 
+        <activity android:name="ChangelogActivity"
+                android:label="@string/changelog_activity"
+                android:theme="@android:style/Theme.Holo.Panel"
+                android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name="SettingsLicenseActivity"
                 android:label="@string/settings_license_activity_title"
                 android:theme="@android:style/Theme.Holo.Panel"

@@ -89,6 +89,15 @@
         </PreferenceScreen>
         -->
 
+        <!-- Changelog -->
+        <PreferenceScreen android:key="changelog"
+                android:title="@string/changelog_activity" 
+                android:summary="@string/changelog_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.ChangelogActivity" />
+        </PreferenceScreen>
+
         <!-- Device hardware model -->
         <Preference android:key="device_model" 
                 style="?android:preferenceInformationStyle"
