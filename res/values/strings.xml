@@ -3779,6 +3779,8 @@ found in the list of installed apps.</string>
     from their cell phone carrier. The use of the string is similar to the string
     "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
     <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
+
+    <!-- Classicnerd edits begin here -->
     <!-- Displays the changelog of tenderloin -->
     <string name="changelog_activity">Changelog</string>
     <!-- Displays the summary for changelog of tenderloin -->
@@ -3787,4 +3789,14 @@ found in the list of installed apps.</string>
     <string name="changelog_activity_unavailable">There is a problem loading the changelog.</string>
     <!-- About phone settings screen, Open source license dialog title until license is fully loaded -->
     <string name="changelog_activity_loading">Loading\u2026</string>
+
+    <!-- Displays the classicteam of tenderloin -->
+    <string name="classicteam_activity">Classicnerd Team and Information</string>
+    <!-- Displays the summary for classicnerd team of tenderloin -->
+    <string name="classicteam_summary">View the Classicnerd Team information</string>
+    <!-- About phone settings screen, Open source license dialog message when licenses cannot be loaded -->
+    <string name="classicteam_activity_unavailable">There is a problem loading the information.</string>
+    <!-- About phone settings screen, Open source license dialog title until license is fully loaded -->
+    <string name="classicteam_activity_loading">Loading\u2026</string>
+
 </resources>

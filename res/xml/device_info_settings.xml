@@ -98,6 +98,15 @@
                     android:targetClass="com.android.settings.ChangelogActivity" />
         </PreferenceScreen>
 
+        <!-- Classicteam -->
+        <PreferenceScreen android:key="classicteam"
+                android:title="@string/classicteam_activity"
+                android:summary="@string/classicteam_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.ClassicteamActivity" />
+        </PreferenceScreen>
+
         <!-- Device hardware model -->
         <Preference android:key="device_model" 
                 style="?android:preferenceInformationStyle"

@@ -592,6 +592,16 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="ClassicteamActivity"
+                android:label="@string/classicteam_activity"
+                android:theme="@android:style/Theme.Holo.Panel"
+                android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name="SettingsLicenseActivity"
                 android:label="@string/settings_license_activity_title"
                 android:theme="@android:style/Theme.Holo.Panel"
