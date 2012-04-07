@@ -3784,7 +3784,7 @@ found in the list of installed apps.</string>
     <!-- Displays the changelog of tenderloin -->
     <string name="changelog_activity">Changelog</string>
     <!-- Displays the summary for changelog of tenderloin -->
-    <string name="changelog_summary">View changelog for Classicnerd Tenderloin</string>
+    <string name="changelog_summary">View changelog for Classicnerd Devices</string>
     <!-- About phone settings screen, Open source license dialog message when licenses cannot be loaded -->
     <string name="changelog_activity_unavailable">There is a problem loading the changelog.</string>
     <!-- About phone settings screen, Open source license dialog title until license is fully loaded -->
